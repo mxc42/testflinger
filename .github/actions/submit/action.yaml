@@ -47,7 +47,7 @@ runs:
       env:
         GITHUB_REF: ${{ github.action_ref }}
       with:
-        repository: mxc42/testflinger
+        repository: canonical/testflinger
         ref: ${{ env.GITHUB_REF }}
         path: _tmp_testflinger-actions
         sparse-checkout: .github/actions/testflinger-setup
